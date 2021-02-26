@@ -78,8 +78,11 @@ class Net(nn.Module):
     
     
 model=Net()
+
 model.train()
+\
 out=model(im)
+
 print(out.size())
 
 
